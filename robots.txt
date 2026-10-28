@@ -1,7 +1,0 @@
-# thebigeaterr.github.io 全体の robots.txt（GitHub Pages のユーザーサイト）。
-# クローラーはホスト直下の /robots.txt しか読まないため、プロジェクトサイト（/soroecho/ など）の
-# robots.txt に書いた Sitemap は、ここにも書かないと Google に届かない（2026-09-22）。
-User-agent: *
-Allow: /
-
-Sitemap: https://thebigeaterr.github.io/soroecho/sitemap-index.xml
