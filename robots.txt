@@ -1,0 +1,9 @@
+# thebigeaterr.github.io 全体の robots.txt（GitHub Pages のユーザーサイト）。
+# クローラーはホスト直下の /robots.txt しか読まないため、プロジェクトサイト（/soroecho/ など）の
+# robots.txt に書いた Sitemap は、ここにも書かないと Google に届かない（2026-09-22）。
+# 2026-10-29: そろえ帳は soroecho.com に移転済み（旧 URL は 301）。旧 URL のサイトマップを案内し続けると
+# Google が旧 URL を正規と判断し続ける一因になるため、新ドメインのサイトマップを案内する。
+User-agent: *
+Allow: /
+
+Sitemap: https://soroecho.com/sitemap-index.xml
